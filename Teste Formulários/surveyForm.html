@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contatos</title>
+        <link rel="stylesheet" href="resetar.css">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/2f830cdd3b.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header >
+            
+            <i class="fa-brands fa-html5" class="titulo-inicial logo" ></i>
+            <h1 class="titulo-inicial" >
+                Formulario
+            </h1>
+        
+        </header>
+        <main>
+            <form> 
+                <div class="campo_form">
+                    <label for="nome" class="label-form">Name</label>
+                    <input type="text" class="form-digitar" id="nome" placeholder="Enter your name">
+
+                    <label for="email" class="label-form">Email</label>
+                    <input type="email" class="form-digitar" id="email" placeholder="Enter your email">
+
+                    <label for="telefone" class="label-form">Phone</label>
+                    <input type="tel" class="form-digitar" id="telefone" placeholder="(xx) xxxx-xxxx">
+             
+
+                
+                    <p class="label-form label-question">Would you recommend freeCodeCamp to a friend?</p>
+                    
+                    <input type="radio" class="radio-input" name="recommend" value="definitely" id="definitely">
+                    <label for="definitely" class="label-form radio-label">Definitely</label> <br>
+
+                    
+                    <input type="radio" class="radio-input" name="recommend" value="maybe" id="maybe">
+                    <label for="maybey" class="label-form radio-label">Maybe</label> <br>
+
+                    
+                    <input type="radio" class="radio-input" name="recommend" value="notSure" id="notSure">
+                    <label for="notSure" class="label-form radio-label">Not Sure</label>
+                    
+                    <p class="label-form label-question">Any comments or suggestions?</p>
+                    <textarea cols="30" rows="30" placeholder="Enter your comment here..." id="sugestion" > </textarea>
+
+                    <input type="submit" class="button-submit" value="Submit" >
+                </div>
+
+            </form>
+        </main>
+    </body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Form</title>
+	</head>
+	<body>
+		<form>
+			<input type= "text" name ="nome" placeholder= "Nome"/><br/>
+			<input type="tel" name = "telefone" placeholder= "(00)0000-0000"/><br/>
+			<input type ="email" name ="email" placeholder= "Email"/><br/>
+			<input type="password" name ="senha" placeholder="Senha"/><br/>
+			<input type= "search" name= "busca" placeholder=" pesquisar"/><br/>
+			<input type="number" name= "idade" placeholder= "idade"/><br/>
+			<input type="url" name= "site" placeholder= "url"/><br/>
+			<input type="range" name="urgencia" min="0" max ="10" step ="1"/> <br/>
+			<input type= "checkbox" name= "dia-da-semana" value ="2"/> segunda <br/>
+			<input type= "checkbox" name= "dia-da-semana" value ="4"/> Quarta <br/>
+			<input type="radio" name ="horario" value ="manha"/> manha
+			<input type="radio" name ="horario" value ="tarde"/> tarde
+			<input type="radio" name ="horario" value ="noite"/> noite<br/>
+			<textarea cols=50 rows=10 ></textarea><br/>
+			<input list ="cidade" name ="cidade"/>
+			<datalist id ="cidade">
+				<option value="Boqueirão">Boqueirão</option>
+				<option value="Campina Grande">Campina Grande </option>
+			</datalist> <br/>
+			<select name="cidade">
+				<option value="Boqueirão">Boqueirão</option>
+				<option value="Campina Grande">Campina Grande </option>
+			</select> 
+			<button type ="button">outra ação</button>
+			<button type ="reset">limpar</button> <br/>
+			<button type ="subimit">enviar</button>
+			
+	
+		</form>
+		
+	</body>
+</html>

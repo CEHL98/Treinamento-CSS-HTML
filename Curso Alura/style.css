@@ -1,0 +1,88 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+     width: 940px;
+     margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+   
+}
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+
+}
+nav a:hover{
+    color: #e4a721;
+    text-decoration: underline;
+
+}
+.produtos{
+    width: 940px;
+    margin: 20px auto;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 0;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.produtos li:hover{
+    border: 2px solid #e4a721;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 18px;
+
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+/*Reforçando o que a gente já viu em algumas das aulas anteriores, quando a gente tem uma lista, a lista é um elemento de bloco, ou seja, ele ocupa 100% da largura e cada um dos itens da lista também é um bloco, ele ocupa 100% da largura e o próximo item começa na linha de baixo.
+
+[00:44] Nós já vimos algumas coisas para consertar esse comportamento, já vimos a exibição do elemento como inline, quando a gente quer que ele exiba somente o tamanho do conteúdo dele ou o inline block, por padrão, ele vai exibir a largura do conteúdo dele, mas ainda podemos alterar esse tamanho.*/
